@@ -1,5 +1,3 @@
-
-
 prompt = require("prompt-sync")();
 
 let nome = prompt("Qual o nome do produto? ")
