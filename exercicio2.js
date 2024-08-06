@@ -5,4 +5,4 @@ let anoAtual = new Date().getFullYear()
 
 let idade = anoAtual - anoNascimento;
 
-console.log(idade);
+console.log("Sua idade é de " + idade + " anos");

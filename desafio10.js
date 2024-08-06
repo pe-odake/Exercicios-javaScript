@@ -2,11 +2,11 @@ prompt = require("prompt-sync")();
 
 let num = parseFloat(prompt("Insira um número "))
 
-let operacao = num / 2 
+let resto = num % 2 
 
-if operacao & 0{
-    console.log("par")
+if(resto == 0){
+    console.log("É um número par")
 }
 else{
-    console.log("impar")
+    console.log("É um número ímpar")
 }
