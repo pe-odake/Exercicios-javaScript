@@ -8,6 +8,6 @@ let numParc = parseInt(prompt("Número de parcelas: "))
 
 let valorParc = valorTotal / numParc
 
-console.log("O valor total da compra é de " + valorTotal + " reais");
+console.log("O valor total da compra é de R$" + valorTotal.toFixed(2));
 console.log("Será dividido em " + numParc + " parcelas");
-console.log("Cada parcela terá o valor de " + valorParc + " reais");
+console.log("Cada parcela terá o valor de R$" + valorParc.toFixed(2));

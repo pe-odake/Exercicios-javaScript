@@ -1,6 +1,6 @@
 prompt = require("prompt-sync")();
 
-let anoNascimento = parseInt(prompt("Insira seu ano de ano nascimento "))
+let anoNascimento = parseInt(prompt("Insira o ano em que nasceu "))
 let anoAtual = new Date().getFullYear()
 
 let idade = anoAtual - anoNascimento;

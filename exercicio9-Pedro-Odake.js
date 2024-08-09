@@ -7,7 +7,7 @@ let juros = parseFloat(prompt("Quantos porcento de juros: "));
 
 let valorParc = valorCompra / numParc
 
-console.log(valorCompra + " será parcelado em " + numParc + " ,com uma taxa de juros de " + juros + "% ao mês.")
+console.log("O valor de " + valorCompra + " será parcelado em " + numParc + " ,com uma taxa de juros de " + juros + "% ao mês.")
 
 for(let cont = 0; cont < numParc; cont++){
 

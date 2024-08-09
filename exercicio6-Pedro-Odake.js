@@ -1,7 +1,7 @@
 prompt = require("prompt-sync")();
 
 let nomeProd = prompt("Insira o nome do produto: ");
-let precoOrig = parseFloat(prompt("Qual o preço original: "));
+let precoOrig = parseFloat(prompt("Qual é o preço original: "));
 let porcentDescont = parseFloat(prompt("Está com quantos porcentos de desconto: "));
 
 let desconto = porcentDescont / 100;
