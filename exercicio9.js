@@ -7,16 +7,15 @@ let juros = parseFloat(prompt("Quantos porcento de juros: "));
 
 let valorParc = valorCompra / numParc
 
-console.log("O valor total da compra é de " + valorCompra);
+console.log(valorCompra + " será parcelado em " + numParc + " ,com uma taxa de juros de " + juros + "% ao mês.")
 
+for(let cont = 0; cont < numParc; cont++){
 
-for(var cont = 0; cont < numParc; cont++){
+    let valorJuros =  (juros / 100) * valorParc    
+        valorParc = valorParc + valorJuros
 
-    let valorJuros =  (juros / 100) * 
-    let valorMes = valorParc + valorJuros
-    let valorMes = 
+    let valorMes =  valorParc.toFixed(2)
     
 
     console.log(valorMes)
 }
-
